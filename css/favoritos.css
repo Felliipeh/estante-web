@@ -3,7 +3,6 @@
 :root { 
     --primaria:#915f32;
     --secuntaria:#ce9056;
-    --terciaria:;
     --quartenaria:#e1e6eb;
     --branco:white;
     --preto:black;
@@ -86,7 +85,31 @@ main{
     background-position: center center;
     background-size:100% 100%;
 }
+.borda_categorias{
+    position: relative;
+    width: 20rem;
+    height: 27rem;
+    border-radius: 1rem ;
+    top: 3rem;
+background-color: var(--secuntaria);
 
+}
+a{
+    text-decoration: none;
+color: var(--preto);
+}
+.categoria1{
+background-color: var(--quartenaria);
+text-align: center;
+    border-radius: 0.5rem;
+    background-color: var(--branco);
+    width: 15rem;
+    font-size: 2.2rem;
+    position: relative;
+ left: 3rem;
+ top: 4rem;
+
+}
 footer{
     display: grid;
     grid-template-columns: repeat(3,1fr);

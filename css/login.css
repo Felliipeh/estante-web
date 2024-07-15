@@ -102,15 +102,9 @@ main {
 #index{
     
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 h3{ text-align: center;
-=======
+    }
 h1{ text-align: center;
->>>>>>> 9f52a7b4f333749077cd2ee9104e5cf5800af7bb
-=======
-h1{ text-align: center;
->>>>>>> 9f52a7b4f333749077cd2ee9104e5cf5800af7bb
     position: relative;
     top: 1REM;
 }
@@ -118,8 +112,6 @@ h1{ text-align: center;
 .borda_login {
     border: solid black 0.1rem;
     border-radius: 4rem;
-<<<<<<< HEAD
-<<<<<<< HEAD
     width: 22.5rem;
     background-color: var(--secuntaria);
     align-items: center;
@@ -132,10 +124,6 @@ top: 2REM;
 }
    .email,.senha{
 text-align: center;
-   }
-=======
-=======
->>>>>>> 9f52a7b4f333749077cd2ee9104e5cf5800af7bb
     position: absolute;
     top: 50%;
     left: 50%;
@@ -166,49 +154,36 @@ text-align: center;
    
     }
 
-<<<<<<< HEAD
->>>>>>> 9f52a7b4f333749077cd2ee9104e5cf5800af7bb
-=======
->>>>>>> 9f52a7b4f333749077cd2ee9104e5cf5800af7bb
+
+
+
    label {
     display: block;
     margin-bottom: 8px;
 }
+
 input[type="email"], input[type="password"] {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
    position: relative;
    left: 1rem;
->>>>>>> 9f52a7b4f333749077cd2ee9104e5cf5800af7bb
-=======
+
    position: relative;
    left: 1rem;
->>>>>>> 9f52a7b4f333749077cd2ee9104e5cf5800af7bb
     width:18rem;
     padding: 8px 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;}
     button{
-<<<<<<< HEAD
-<<<<<<< HEAD
         border: 0.2;
         border-radius: 3REM;
         text-align: center;
         position: relative;
     }
-=======
-=======
->>>>>>> 9f52a7b4f333749077cd2ee9104e5cf5800af7bb
-        font-size: 1rem;
-        position: relative;
-        align-content: center;
-        top: 3rem;
-        width: 10rem;
-    background-color: var(--primaria);
+.
 
-    }
+
+
 
 .Esqueceu_senha{
     text-align: center;
@@ -217,10 +192,6 @@ input[type="email"], input[type="password"] {
 
 }
     
-<<<<<<< HEAD
->>>>>>> 9f52a7b4f333749077cd2ee9104e5cf5800af7bb
-=======
->>>>>>> 9f52a7b4f333749077cd2ee9104e5cf5800af7bb
 .alinha_icon {
     text-align: center;
     align-items: center;
