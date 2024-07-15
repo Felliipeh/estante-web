@@ -1,8 +1,15 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> d0f8e3b630353ce60a26723366224f2cf9b9c7a3
 /* acessa o elemento root e cria variaveis globais */
 :root { 
     --primaria:#915f32;
     --secuntaria:#ce9056;
+<<<<<<< HEAD
     --terciaria:;
+=======
+>>>>>>> d0f8e3b630353ce60a26723366224f2cf9b9c7a3
     --quartenaria:#e1e6eb;
     --branco:white;
     --preto:black;
@@ -17,7 +24,11 @@ margens e paddigns*/
 *{
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     box-sizing: border-box;
+=======
+    
+>>>>>>> d0f8e3b630353ce60a26723366224f2cf9b9c7a3
 }
 
 /* seleciona o header E FOOTER 
@@ -28,6 +39,16 @@ header,footer{
     background-color: var(--primaria);
     padding: 1rem;
 }
+<<<<<<< HEAD
+=======
+header {font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    
+
+}
+>>>>>>> d0f8e3b630353ce60a26723366224f2cf9b9c7a3
 /* seleciona o nav
 coloca cor de fundo
 muda o display para grid
@@ -41,6 +62,14 @@ nav{
     text-align:center;
     padding: 0.25rem;
     gap:0.5rem;
+<<<<<<< HEAD
+=======
+    font-family: "Special Elite", system-ui;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5rem;
+
+>>>>>>> d0f8e3b630353ce60a26723366224f2cf9b9c7a3
 }
 /* seleciona todos os links dentro de navs
 remove a decoraçâo dos links
@@ -73,6 +102,7 @@ main{
     background-position: center center;
     background-size:100% 100%;
 }
+<<<<<<< HEAD
 
 footer{
     display: grid;
@@ -80,6 +110,40 @@ footer{
     color: var(--terciaria
     text-align:center;
 
+=======
+.borda_categorias{
+    position: relative;
+    width: 20rem;
+    height: 27rem;
+    border-radius: 1rem ;
+    top: 3rem;
+background-color: var(--secuntaria);
+
+}
+a{
+    text-decoration: none;
+color: var(--preto);
+}
+.categoria1{
+background-color: var(--quartenaria);
+text-align: center;
+    border-radius: 0.5rem;
+    background-color: var(--branco);
+    width: 15rem;
+    font-size: 2.2rem;
+    position: relative;
+ left: 3rem;
+ top: 4rem;
+
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: var(--terciaria);
+    text-align:center;
+    height: 1.5rem;
+    position: relative;
+>>>>>>> d0f8e3b630353ce60a26723366224f2cf9b9c7a3
 }
 #copy {
     text-align:start;
