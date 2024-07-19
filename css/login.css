@@ -98,11 +98,7 @@ main {
 }
 
 
-
-#index{
-    
-}
-h1{ text-align: center;
+.titulo{ text-align: center;
     position: relative;
     top: 1REM;
 }
@@ -111,11 +107,10 @@ h1{ text-align: center;
     border: solid black 0.1rem;
     border-radius: 4rem;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     background-color: var(--primaria);
-    border: ;
     border-radius: 5rem;
     width: 22rem;
     height: 30rem;
@@ -128,7 +123,7 @@ h1{ text-align: center;
     .cadastrado{
         text-align: right 1rem;
         position: relative;
-        top: 9rem;
+        top: 3rem;
         font-family: Arial, Helvetica, sans-serif;
 
 
@@ -174,10 +169,66 @@ input[type="email"], input[type="password"] {
     align-items: center;
     display: flex;
 }
+@media screen and (max-width:900px) {
+    
+
+nav {
+    background-color: var(--secuntaria);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    padding: 0.25rem;
+    gap: 0.5rem;
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+} 
+.borda_login {
+    border: solid rgb(7, 7, 7) 0.1rem;
+    border-radius: 2rem;
+    position: relative;
+    top: 17rem;
+    background-color: var(--primaria);
+    border-radius: 3rem;
+    width: 18rem;
+    height: 30rem;
+    text-align: center;
+    font-size: 1rem;
+    background-color: var(--secuntaria);
+    font-family: Arial, Helvetica, sans-serif;
+}  
+.cadastrado{
+    text-align: right 1rem;
+    position: relative;
+    top: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
 
 
+}
+input[type="email"] , input[type="password"]
+{
+    position: relative;
+  left: 0.4rem;
+    width:15rem;
+    padding: 10px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+    button{
+    font-size: 1.5rem;
+    position: relative;
+        align-content: center;
+    top:3rem;
+    width: 10rem;
+    background-color: var(--primaria);
+}
+}
 
-footer []
+footer{
+
+}
 
 .rede_social {
     position: relative;
