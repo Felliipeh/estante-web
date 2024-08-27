@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ESTANTE WEB</title>
@@ -11,12 +11,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 </head>
 <body>
+    
     <header>
         <div class="logo-busca">
             <h1>Estante Web</h1>
-            <form action="">
-            <input type="search" name="busca" id="busca">
+         
+                <form id="form_busca" method="get" action="index.php">
+                    <input type="text" name="PESQUISA" id="busca" placeholder="Digite o nome do livro">
+                    <button type="submit" id="btn_lupa">
+                        <img src="./img/procurar.png "  width="20px" height="20px" alt="buscar" id="icon">
+                    </button>
         </form>
+    
         </div>
      
     </header>
@@ -24,8 +30,8 @@
 <a href="index.html">inicio</a>
 <a href="./VIEWS/QUEM SOMOS.HTML">Quem Somos</a>
 <a href="./VIEWS/CONTATO.HTML">Contato</a>
-<a href="./VIEWS/FAVORITOS.HTM" class="alinhar"> <img src="./img/grade_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="" width="30px" height="30px">favoritos</a>
-<a href="./VIEWS/LOGIN.HTML">login</a>
+<a href="./VIEWS/FAVORITOS.HTM" ><img   class="alinhar" src="./img/star_24dp_FILL0_wght400_GRAD0_opsz24 (1).png " height="25px" width="25px"   alt="">favoritos</a>
+<a href="./VIEWS/LOGIN.HTML" class="alinhar"> <img src="./img/usuario-de-perfil.png" alt="">Olá, usuário</a>
         </nav>
     <MAIN id="index">
 

@@ -10,24 +10,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 </head>
-<body>
+<bdody>
     <header>
         <div class="logo-busca">
             <h1>Estante Web</h1>
-            <form action="">
-            <input type="search" name="busca" id="busca">
+         
+                <form id="form_busca" method="get" action="index.php">
+                    <input type="text" name="PESQUISA" id="busca" placeholder="Digite o nome do livro">
+                    <button type="submit" id="btn_lupa">
+                        <img src="../img/procurar.png "  width="20px" height="20px" alt="buscar" id="icon">
+                    </button>
         </form>
+    
         </div>
      
     </header>
      <nav>
 <a href="../index.html">inicio</a>
-<a href="./QUEM SOMOS.HTML"> Quem Somos</a>
+<a href="./QUEM SOMOS.HTML">Quem Somos</a>
 <a href="./CONTATO.HTML">Contato</a>
-<a href="./FAVORITOS.HTM" class="alinhar"> <img src="../img/grade_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="" width="30px" height="30px">favoritos</a>
-<a href="./LOGIN.HTML">login</a>
+<a href="./FAVORITOS.HTM" ><img   class="alinhar" src="../img/star_24dp_FILL0_wght400_GRAD0_opsz24 (1).png " height="25px" width="25px"   alt="">favoritos</a>
+<a href="./LOGIN.HTML" class="alinhar"> <img src="../img/usuario-de-perfil.png" alt="">Olá, usuário</a>
         </nav>
-
     <MAIN id="index">
 <div class="ICONE_insta">
     <a href="https://www.instagram.com/accounts/login/" target="_blank">
